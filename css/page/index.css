@@ -7,6 +7,100 @@
 
 /* 焦点图 */
 .focus-slider{
-	height: 300px;
+	height: 330px;
 	background-color: red
+}
+.mask-layer-wrap{
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+}
+.mask-layer{
+	width: 300px;
+	height: 300px;
+	filter: alpha(Opacity=80);
+  	-moz-opacity: 0.8;
+	opacity: 0.8;
+  	background-color: #ffffff;
+	z-index: 90;
+	position: absolute;
+	position: absolute;
+	top: -315px;
+	right: 0px;
+}
+.mask-layer-join{
+	position: absolute;
+	top: -315px;
+	right: 0px;
+	width: 300px;
+	height: 300px;
+	z-index:99;
+}
+.mask-layer-join .red{
+	color: #e9460b;
+}
+.mask-layer-join .lilv{
+	font-size: 50px;
+	font-family: "Arial";
+	font-weight: bold;
+}
+.mask-layer-join .btn-join{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	background-color: #fa4f19;
+	color: #ffff00;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 3px;
+	vertical-align: middle;
+	border-bottom: 5px solid #ff3300;
+}
+
+/* 标题 */
+.ui-title{
+	height: 61px;
+	line-height: 61px;
+	border-bottom: 1px solid #cccccc;
+}
+.ui-title .more{
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #cc9966;
+}
+.ui-title h2{
+	padding-left: 27px;
+	font-size: 18px;
+	color: #cc9966;
+}
+.ui-title h2 i.icon-notic{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url("../../images/index/icon-notic.png") no-repeat;
+	margin-right: 10px;
+	vertical-align: -2px;
+}
+
+/* 公告 */
+.ui-notic{
+	width: 300px;
+	float: right;
+}
+.ui-notic-list{
+	padding-left: 27px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.ui-notic-list li{
+	line-height: 25px;
+}
+
+/* 平台介绍 */
+.ui-intro{
+	float: left;
+	width: 685px;
+	height: 245px;
 }

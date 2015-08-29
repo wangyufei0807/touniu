@@ -5,6 +5,11 @@
 * @time: 2015-08-29
 */
 
+/* 背景颜色 */
+.bgc-white{
+	background-color: #ffffff;
+}
+
 /* 布局 */
 .ui-container{
 	width: 1000px;
@@ -73,4 +78,10 @@
 }
 .ui-nav li a{
 	font-size: 17px;
+}
+
+/* 底部 */
+.ui-footer{
+	height: 100px;
+	background-color: #323232;
 }
