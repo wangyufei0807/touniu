@@ -85,3 +85,90 @@
 	height: 100px;
 	background-color: #323232;
 }
+
+/* 投标进度 */
+.ui-rate{
+	display: inline-block;
+    height: 34px;
+    position: relative;
+    vertical-align: middle;
+    width: 120px;
+}
+.ui-rate .progressBar{
+	display: block;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    background-color: #f5edd8;
+}
+.ui-rate .progressBar,.ui-rate .progressBar .barIn{
+	border-radius: 2px;
+    font-size: 0;
+    height: 6px;
+    line-height: 6px;
+    text-align: left;
+    vertical-align: middle;
+    width: 120px;
+}
+.ui-rate .progressBar .barIn{
+	background-color: #c0a353;
+    display: inline-block;
+}
+
+/* 按钮组件 */
+.ui-button{
+	border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0 none;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.ui-button:hover {
+    text-decoration: none;
+}
+.ui-button-small {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    min-width: 50px;
+}
+.ui-button-mid {
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    min-width: 50px;
+    text-align: center;
+}
+.ui-button-large {
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    min-width: 50px;
+    text-align: center;
+}
+.ui-button-red {
+    background-color: #fa4f19;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-red:hover {
+    background-color: #fa4f19;
+}
+a.ui-button-red, a.ui-button-red:active, a.ui-button-red:hover {
+    color: #fff;
+}
+
+.ui-button-blue {
+    background-color: #a1afc9;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-blue:hover {
+    background-color: #a1afc9;
+}
+a.ui-button-blue, a.ui-button-blue:active, a.ui-button-blue:hover {
+    color: #fff;
+}

@@ -86,13 +86,13 @@
 /* 公告 */
 .ui-notic{
 	width: 300px;
+	height: 245px;
 	float: right;
 }
 .ui-notic-list{
 	padding-left: 27px;
 	padding-right: 10px;
 	padding-top: 20px;
-	padding-bottom: 20px;
 }
 .ui-notic-list li{
 	line-height: 25px;
@@ -103,4 +103,306 @@
 	float: left;
 	width: 685px;
 	height: 245px;
+}
+.ui-intro .item{
+	float: left;
+	width: 228px;
+	background: url("../../images/index/intro-line.png") no-repeat right 45px;
+}
+.ui-intro .item.last{
+	background: none;
+}
+.ui-intro .div-icon{
+	padding-left: 68px;
+}
+.ui-intro .div-icon1{
+	padding-top: 30px;
+}
+.ui-intro .div-icon2{
+	padding-top: 48px;
+}
+.ui-intro .div-icon3{
+	padding-top: 40px;
+}
+.ui-intro .icon-intro1{
+	display: inline-block;
+	width: 91px;
+	height: 108px;
+	background: url("../../images/index/icon-intro1.png") no-repeat;
+}
+.ui-intro .icon-intro2{
+	display: inline-block;
+	width: 91px;
+	height: 91px;
+	background: url("../../images/index/icon-intro2.png") no-repeat;
+}
+.ui-intro .icon-intro3{
+	display: inline-block;
+	width: 91px;
+	height: 99px;
+	background: url("../../images/index/icon-intro3.png") no-repeat;
+}
+.ui-intro .info{
+	padding-left: 55px;
+	padding-top: 10px;
+}
+.ui-intro .info h3{
+	font-size: 18px;
+	color: #c0a354;
+	font-weight: normal;
+}
+.ui-intro .info p{
+	color: #707070;
+	font-size: 11px;
+}
+
+/* 新手专享 */
+.ui-newcomer{
+	height: 128px;
+	border: 1px solid #14cad0;
+	background: #ffffff;
+	position: relative;
+}
+.ui-newcomer .icon-newcomer{
+	position: absolute;
+	left: -1px;
+	top: -10px;
+	display: inline-block;
+	width: 282px;
+	height: 138px;
+	background: url("../../images/index/icon-xinshou.png") no-repeat;
+}
+.ui-newcomer .item{
+	padding-left: 290px;
+}
+.ui-newcomer .item-info{
+	padding-top: 23px;
+}
+.ui-newcomer .item-info .tit{
+	font-size: 18px;
+	color: #4c4949;
+}
+.ui-newcomer .item-info .tit .icon-new{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url("../../images/index/icon-new.png") no-repeat;
+	margin-right: 7px;
+	vertical-align: -3px;
+}
+.ui-newcomer .item-info .attr{
+	color: #7c7c7c
+}
+.ui-newcomer .item-info .attr .red{
+	color: #fa4f19;
+	font-size: 24px;
+}
+.ui-newcomer .item-info .attr span{
+	margin-right: 20px;
+}
+.ui-newcomer .item-info .attr .icon-ensure{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url("../../images/index/icon-ensure.png") no-repeat 3px;
+	margin-right: 7px;
+	vertical-align: -5px;
+}
+.ui-newcomer .item-info .attr .p1{
+	padding-left: 29px;
+}
+.ui-newcomer .item-handle{
+	width: 210px;
+}
+.ui-newcomer .item-handle .btn-invest{
+	width: 155px;
+}
+.ui-newcomer .item-handle .jindu{
+	color: #c6ab62;
+	font-size: 12px;
+}
+.ui-newcomer .item-handle .link {
+	text-align: right;
+	margin-right: 8px;
+	padding-top: 5px;
+}
+.ui-newcomer .item-handle .link a{
+	color: #7c7c7c;
+	font-size: 12px;
+}
+
+/* 自动理财 */
+.ui-automatic li{
+	float: left;
+	height: 253px;
+	width: 245px;
+	background: #ffffff;
+	border-radius: 3px;
+	border-top: 2px solid #c9b173;
+	position: relative;
+	margin-right: 6px;
+}
+.ui-automatic li.last{
+	margin-right: 0px;
+}
+.ui-automatic .tit{
+	height: 59px;
+	border-bottom: 1px solid #fcfaf6;
+	color: #c0a354;
+	padding-left: 20px;
+}
+.ui-automatic .tit em{
+	font-size: 48px;
+}
+.ui-automatic .bottom {
+	height: 58px;
+	line-height: 58px;
+	background-color: #fcfaf6;
+	padding-right: 25px;
+	position: absolute;
+	bottom: 0px;
+	width: 220px;
+}
+.ui-automatic .bottom .start-time{
+	color: #7c7c7c;
+}
+.ui-automatic .bottom .icon-time{
+	display: inline-block;
+	width: 58px;
+	height: 58px;
+	background: url("../../images/index/icon-time.png") no-repeat 15px 15px;
+	border-right: 1px solid #ffffff;
+}
+.ui-automatic .con{
+	text-align: center;
+	padding-top: 30px;
+}
+.ui-automatic .con .syl{
+	color: #fa4f19;
+	display: inline-block;
+}
+.ui-automatic .con .syl .span1{
+	font-size: 60px;
+	float: left;
+	line-height: 60px;
+}
+.ui-automatic .con .syl .div1{
+	float: left;
+	padding-top: 4px;
+	text-align: left;
+}
+.ui-automatic .con .syl .div1 span{
+	font-size: 33px;
+	line-height: 30px;
+}
+.ui-automatic .con .p1{
+	font-size: 16px;
+	color: #999999;
+}
+
+/* 直投项目 */
+.ui-direct .tit{
+	height: 89px;
+	line-height: 89px;
+}
+.ui-direct .tit h3{
+	padding-left: 205px;
+	background: url("../../images/index/direct_tit.png") no-repeat 15px 29px;
+	color: #c9af6b;
+	font-weight: normal;
+}
+.ui-direct .tit .more{
+	font-size: 12px;
+	color: #c9af6b;
+}
+.ui-direct .list li{
+	width: 240px;
+	height: 330px;
+	background: #ffffff;
+	position: relative;
+	float: left;
+	margin-right: 12px;
+}
+.ui-direct .list li .zhejiao{
+	width: 19px;
+	height: 19px;
+	background: url("../../images/index/zhejiao.png") no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.ui-direct .list .name{
+	height: 97px;
+	padding-top: 15px;
+}
+.ui-direct .list .name .youniu{
+	margin-left: 15px;
+}
+.ui-direct .list .name h3{
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.ui-direct .list .attr{
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	height: 75px;
+}
+.ui-direct .list .attr .attr-c{
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #7c7c7c;
+	font-size: 12px;
+	padding-top: 15px;
+}
+.ui-direct .list .attr .attr-c .red{
+	color: #fa4f19;
+	font-size: 32px;
+	line-height: 30px;
+}
+.ui-direct .list .attr .attr-c .blank{
+	font-size: 32px;
+	color: #7c7c7c;
+	line-height: 30px;
+}
+.ui-direct .list .p1{
+	color: #999999;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.ui-direct .list .btn-box,.ui-direct .list .jindu,.ui-direct .list .time{
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.ui-direct .list .jindu{
+	color: #c6ab62;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.ui-direct .list .ui-button{
+	width: 165px;
+}
+.ui-direct .list .time{
+	color: #a1afc9;
+	line-height: 25px;
+}
+.ui-direct .list .time span{
+	display: inline-block;
+	width: 27px;
+	height: 25px;
+	background-color: #eceff4;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	font-size: 20px;
+	font-family: "Arial";
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.ui-direct .list .time .day{
+	margin-left: 0px;
 }
