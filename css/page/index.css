@@ -315,6 +315,10 @@
 	font-size: 12px;
 	color: #c9af6b;
 }
+.ui-direct .list{
+	margin-bottom: -8px;
+	overflow: hidden;
+}
 .ui-direct .list li{
 	width: 240px;
 	height: 330px;
@@ -322,6 +326,7 @@
 	position: relative;
 	float: left;
 	margin-right: 12px;
+	margin-bottom: 8px;
 }
 .ui-direct .list li .zhejiao{
 	width: 19px;
@@ -405,4 +410,97 @@
 }
 .ui-direct .list .time .day{
 	margin-left: 0px;
+}
+.ui-direct .list .icon-full{
+	display: inline-block;
+	width: 67px;
+	height: 65px;
+	background: url("../../images/index/icon-full.png") no-repeat;
+	position: absolute;
+	top: 90px;
+	left: 88px;
+}
+
+/* 媒体报道 */
+.ui-news{
+	width: 685px;
+	height: 373px;
+	float: left;
+}
+.ui-news .icon-news{
+	display: inline-block;
+	width: 24px;
+	height: 16px;
+	background: url("../../images/index/icon-news.png") no-repeat;
+	margin-right: 10px;
+	vertical-align: -1px;
+}
+.ui-news .news-img{
+	padding-top: 18px;
+	padding-left: 42px;
+}
+.ui-news .news-img li{
+	float: left;
+	margin-right: 30px;
+}
+.ui-news .news-list{
+	padding-left: 42px;
+	padding-right: 55px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.ui-news .news-list li{
+	line-height: 25px;
+}
+.ui-news .news-list li a{
+	color: #4c4949;
+}
+.ui-news .news-media{
+	border-top: 1px solid #d4d4d4;
+	padding-left: 25px;
+	padding-top: 13px;
+}
+.ui-news .news-media li{
+	float: left;
+	margin-right: 14px;
+}
+
+/* 项目预告 */
+.ui-predict{
+	width: 300px;
+	height: 373px;
+	float: right;
+}
+.ui-predict .icon-predict{
+	display: inline-block;
+	width: 19px;
+	height: 17px;
+	background: url("../../images/index/icon-predict.png") no-repeat;
+	margin-right: 10px;
+	vertical-align: -1px;
+}
+.ui-predict-list{
+	padding-left: 27px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.ui-predict-list li{
+	line-height: 25px;
+}
+
+/* 合作伙伴 */
+.ui-cooperation{
+	height: 137px;
+}
+.ui-cooperation .ui-title{
+	height: 50px;
+	line-height: 50px;
+}
+.ui-cooperation-list{
+	padding-top: 23px;
+	padding-left: 40px;
+}
+.ui-cooperation-list li{
+	float: left;
+	margin-right: 25px;
 }
