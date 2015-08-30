@@ -54,7 +54,7 @@
 	text-align: center;
 	border-radius: 3px;
 	vertical-align: middle;
-	border-bottom: 5px solid #ff3300;
+	border-bottom: 5px solid #e9460b;
 }
 
 /* 标题 */
@@ -392,7 +392,7 @@
 	width: 165px;
 }
 .ui-direct .list .time{
-	color: #a1afc9;
+	color: #fa8d19;
 	line-height: 25px;
 }
 .ui-direct .list .time span{
@@ -416,6 +416,15 @@
 	width: 67px;
 	height: 65px;
 	background: url("../../images/index/icon-full.png") no-repeat;
+	position: absolute;
+	top: 90px;
+	left: 88px;
+}
+.ui-direct .list .icon-huanqing{
+	display: inline-block;
+	width: 67px;
+	height: 65px;
+	background: url("../../images/index/icon-huanqing.png") no-repeat;
 	position: absolute;
 	top: 90px;
 	left: 88px;
@@ -451,9 +460,6 @@
 }
 .ui-news .news-list li{
 	line-height: 25px;
-}
-.ui-news .news-list li a{
-	color: #4c4949;
 }
 .ui-news .news-media{
 	border-top: 1px solid #d4d4d4;

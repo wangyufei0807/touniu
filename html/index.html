@@ -55,13 +55,13 @@
     <div class="focus-slider">
         <div id="kinMaxShow" class="bx-slider" style="height:330px">
             <div>
-                <a href="#" target="_blank"><img src="../images/index/silder/silder01.jpg"/></a>
+                <a href="#" target="_blank"><img src="../images/index/slider/slider01.jpg"/></a>
             </div>
             <div>
-                <a href="#" target="_blank"><img src="../images/index/silder/silder02.jpg"/></a>
+                <a href="#" target="_blank"><img src="../images/index/slider/slider02.jpg"/></a>
             </div>
             <div>
-                <a href="#" target="_blank"><img src="../images/index/silder/silder03.jpg"/></a>
+                <a href="#" target="_blank"><img src="../images/index/slider/slider03.jpg"/></a>
             </div>
         </div>
 
@@ -285,7 +285,7 @@
                             </div>
                         </li>
 
-                        <li>
+                        <li id="li1">
                             <i class="zhejiao"></i>
                             <div class="name">
                                 <span class="youniu"><img src="../images/index/youniu.png"></span>
@@ -305,7 +305,7 @@
                             </div>
                             <p class="p1">高收益 有保障</p>
                             <div class="btn-box">
-                                <a target="_blank" class="ui-button ui-button-mid ui-button-blue" href="#">即将发布</a>
+                                <a target="_blank" class="ui-button ui-button-mid ui-button-orange" href="#">即将发布</a>
                             </div>
                             <div class="time pt15">
                                 <span class="day">00</span>天<span class="hour">00</span>时<span class="minute">05</span>分<span class="second">09</span>秒
@@ -363,7 +363,7 @@
                             </div>
                             <p class="p1">高收益 有保障</p>
                             <div class="btn-box">
-                                <a target="_blank" class="ui-button ui-button-mid ui-button-red" href="#">已满标<em class="f12">[还款中]</em></a>
+                                <a target="_blank" class="ui-button ui-button-mid ui-button-russetish" href="#">已满标</a>
                             </div>
                             <div class="jindu">
                                 已募集<span class="num">100%</span>
@@ -407,6 +407,7 @@
                         </li>
                         <li>
                             <i class="zhejiao"></i>
+                            <i class="icon-huanqing"></i>
                             <div class="name">
                                 <span class="youniu"><img src="../images/index/youniu.png"></span>
                                 <h3>项目：知名电气企业流动资金项目</h3>
@@ -425,7 +426,38 @@
                             </div>
                             <p class="p1">高收益 有保障</p>
                             <div class="btn-box">
-                                <a target="_blank" class="ui-button ui-button-mid ui-button-red" href="#">立即投资</a>
+                                <a target="_blank" class="ui-button ui-button-mid ui-button-blue" href="#">已还清</a>
+                            </div>
+                            <div class="jindu">
+                                已募集<span class="num">100%</span>
+                                <span class="ui-rate">
+                                    <span class="progressBar">
+                                        <span style="width: 100%;" class="barIn"></span>
+                                    </span>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="zhejiao"></i>
+                            <div class="name">
+                                <span class="youniu"><img src="../images/index/youniu.png"></span>
+                                <h3>项目：知名电气企业流动资金项目</h3>
+                            </div>
+                            <div class="pl15 pr15">
+                                <div class="attr f-cb">
+                                    <div class="attr-c">
+                                        <p class="red">13.8%</p>
+                                        <p>年化收益率</p>
+                                    </div>
+                                    <div class="attr-c">
+                                        <p class="blank">90</p>
+                                        <p>项目期限[天]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="p1">高收益 有保障</p>
+                            <div class="btn-box">
+                                <a target="_blank" class="ui-button ui-button-mid ui-button-gray" href="#">流标</a>
                             </div>
                             <div class="jindu">
                                 已募集<span class="num">58%</span>
@@ -456,38 +488,7 @@
                             </div>
                             <p class="p1">高收益 有保障</p>
                             <div class="btn-box">
-                                <a target="_blank" class="ui-button ui-button-mid ui-button-red" href="#">立即投资</a>
-                            </div>
-                            <div class="jindu">
-                                已募集<span class="num">58%</span>
-                                <span class="ui-rate">
-                                    <span class="progressBar">
-                                        <span style="width: 67%;" class="barIn"></span>
-                                    </span>
-                                </span>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="zhejiao"></i>
-                            <div class="name">
-                                <span class="youniu"><img src="../images/index/youniu.png"></span>
-                                <h3>项目：知名电气企业流动资金项目</h3>
-                            </div>
-                            <div class="pl15 pr15">
-                                <div class="attr f-cb">
-                                    <div class="attr-c">
-                                        <p class="red">13.8%</p>
-                                        <p>年化收益率</p>
-                                    </div>
-                                    <div class="attr-c">
-                                        <p class="blank">90</p>
-                                        <p>项目期限[天]</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="p1">高收益 有保障</p>
-                            <div class="btn-box">
-                                <a target="_blank" class="ui-button ui-button-mid ui-button-red" href="#">立即投资</a>
+                                <a target="_blank" class="ui-button ui-button-mid ui-button-deepBlue" href="#">还款中</a>
                             </div>
                             <div class="jindu">
                                 已募集<span class="num">58%</span>
@@ -586,7 +587,12 @@
 		
     </div>
 <script type="text/javascript">
-    seajs.use("../js/page/index.js");
+    var lefttime = 1029352;
+    var runtimes = 0;
+
+    seajs.use("../js/page/index.js",function(index){
+        index.GetRTime();
+    });
 </script>
 </div>
 </body>

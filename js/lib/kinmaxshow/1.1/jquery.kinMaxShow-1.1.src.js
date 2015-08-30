@@ -9,7 +9,9 @@
  * @date  	 2013-08-27
  +-------------------------------------------------------------------------------------------------------------
  */
- 
+define(function(require) {
+
+var $ = require("jquery");
 (function($){
 	$.fn.kinMaxShow = function(user_options){
 			//默认设置
@@ -288,3 +290,4 @@
 	}	
 	
 })(jQuery)
+})

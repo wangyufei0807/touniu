@@ -82,8 +82,8 @@
 
 /* 底部 */
 .ui-footer{
-	height: 100px;
-	background-color: #323232;
+	height: 519px;
+	background: url("../images/common/footer_bg.png") no-repeat center;
 }
 
 /* 投标进度 */
@@ -149,6 +149,8 @@
     min-width: 50px;
     text-align: center;
 }
+
+/* 红色 - 立即投资 */
 .ui-button-red {
     background-color: #fa4f19;
     border: medium none;
@@ -161,14 +163,67 @@ a.ui-button-red, a.ui-button-red:active, a.ui-button-red:hover {
     color: #fff;
 }
 
+/* 橙色 - 即将发布 */
+.ui-button-orange {
+    background-color: #fa8d19;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-orange:hover {
+    background-color: #fa8d19;
+}
+a.ui-button-orange, a.ui-button-orange:active, a.ui-button-orange:hover {
+    color: #fff;
+}
+
+/* 深红 - 已满标 */
+.ui-button-russetish {
+    background-color: #a32d08;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-russetish:hover {
+    background-color: #a32d08;
+}
+a.ui-button-russetish, a.ui-button-russetish:active, a.ui-button-russetish:hover {
+    color: #fff;
+}
+
+/* 浅蓝 - 已还清 */
 .ui-button-blue {
-    background-color: #a1afc9;
+    background-color: #b8bbde;
     border: medium none;
     color: #fff;
 }
 .ui-button-blue:hover {
-    background-color: #a1afc9;
+    background-color: #b8bbde;
 }
 a.ui-button-blue, a.ui-button-blue:active, a.ui-button-blue:hover {
+    color: #fff;
+}
+
+/* 深蓝 - 还款中 */
+.ui-button-deepBlue {
+    background-color: #454985;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-deepBlue:hover {
+    background-color: #454985;
+}
+a.ui-button-deepBlue, a.ui-button-deepBlue:active, a.ui-button-deepBlue:hover {
+    color: #fff;
+}
+
+/* 灰色 - 流标 */
+.ui-button-gray {
+    background-color: #d4d4d4;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-gray:hover {
+    background-color: #d4d4d4;
+}
+a.ui-button-gray, a.ui-button-gray:active, a.ui-button-gray:hover {
     color: #fff;
 }
