@@ -162,6 +162,10 @@
 	border: 1px solid #14cad0;
 	background: #ffffff;
 	position: relative;
+	cursor: pointer;
+}
+.ui-newcomer:hover{
+	box-shadow: 0 4px 6px #c4c4c4;
 }
 .ui-newcomer .icon-newcomer{
 	position: absolute;
@@ -234,25 +238,41 @@
 /* 自动理财 */
 .ui-automatic li{
 	float: left;
-	height: 253px;
+	height: 230px;
 	width: 245px;
 	background: #ffffff;
-	border-radius: 3px;
-	border-top: 2px solid #c9b173;
 	position: relative;
-	margin-right: 6px;
+	margin-right: 4px;
+	cursor: pointer;
+
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #c9b173 #f0f1f2 #f0f1f2;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    transition: all 0.3s ease 0s;
+}
+.ui-automatic li:hover{
+	border-color: #c9b173;
+    box-shadow: 0 4px 6px #d9d9de;
+    cursor: pointer;
 }
 .ui-automatic li.last{
 	margin-right: 0px;
 }
 .ui-automatic .tit{
 	height: 59px;
+	line-height: 59px;
 	border-bottom: 1px solid #fcfaf6;
 	color: #c0a354;
 	padding-left: 20px;
 }
-.ui-automatic .tit em{
-	font-size: 48px;
+.ui-automatic .tit .span-c{
+	color: #999;
 }
 .ui-automatic .bottom {
 	height: 58px;
@@ -262,6 +282,12 @@
 	position: absolute;
 	bottom: 0px;
 	width: 220px;
+}
+.ui-automatic .bottom .btn{
+	padding-left: 25px;
+}
+.ui-automatic .bottom .btn .ui-button{
+	width: 165px;
 }
 .ui-automatic .bottom .start-time{
 	color: #7c7c7c;
@@ -275,7 +301,7 @@
 }
 .ui-automatic .con{
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 .ui-automatic .con .syl{
 	color: #fa4f19;
@@ -321,12 +347,16 @@
 }
 .ui-direct .list li{
 	width: 240px;
-	height: 330px;
+	height: 307px;
 	background: #ffffff;
 	position: relative;
 	float: left;
 	margin-right: 12px;
 	margin-bottom: 8px;
+}
+.ui-direct .list li:hover{
+	box-shadow: 0 4px 6px #c4c4c4;
+    cursor: pointer;
 }
 .ui-direct .list li .zhejiao{
 	width: 19px;
@@ -338,14 +368,14 @@
 }
 
 .ui-direct .list .name{
-	height: 97px;
+	height: 70px;
 	padding-top: 15px;
 }
 .ui-direct .list .name .youniu{
 	margin-left: 15px;
 }
 .ui-direct .list .name h3{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -365,11 +395,11 @@
 }
 .ui-direct .list .attr .attr-c .red{
 	color: #fa4f19;
-	font-size: 32px;
+	font-size: 22px;
 	line-height: 30px;
 }
 .ui-direct .list .attr .attr-c .blank{
-	font-size: 32px;
+	font-size: 22px;
 	color: #7c7c7c;
 	line-height: 30px;
 }

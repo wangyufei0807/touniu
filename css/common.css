@@ -189,7 +189,7 @@ a.ui-button-russetish, a.ui-button-russetish:active, a.ui-button-russetish:hover
     color: #fff;
 }
 
-/* 浅蓝 - 已还清 */
+/* 浅蓝 - 流标 */
 .ui-button-blue {
     background-color: #b8bbde;
     border: medium none;
@@ -209,13 +209,13 @@ a.ui-button-blue, a.ui-button-blue:active, a.ui-button-blue:hover {
     color: #fff;
 }
 .ui-button-deepBlue:hover {
-    background-color: #454985;
+    background-color: #717191;
 }
 a.ui-button-deepBlue, a.ui-button-deepBlue:active, a.ui-button-deepBlue:hover {
     color: #fff;
 }
 
-/* 灰色 - 流标 */
+/* 灰色 - 已还清 */
 .ui-button-gray {
     background-color: #d4d4d4;
     border: medium none;
