@@ -48,13 +48,13 @@
 	display: block;
 	height: 45px;
 	line-height: 45px;
-	background-color: #fa4f19;
+	background-color: #e9460b;
 	color: #ffff00;
 	font-size: 22px;
 	text-align: center;
 	border-radius: 3px;
 	vertical-align: middle;
-	border-bottom: 5px solid #e9460b;
+	border-bottom: 5px solid #ed6334;
 }
 
 /* 标题 */
@@ -67,12 +67,12 @@
 	float: right;
 	margin-right: 10px;
 	font-size: 12px;
-	color: #cc9966;
+	color: #4c4949;
 }
 .ui-title h2{
 	padding-left: 27px;
 	font-size: 18px;
-	color: #cc9966;
+	color: #4c4949;
 }
 .ui-title h2 i.icon-notic{
 	display: inline-block;
@@ -114,32 +114,24 @@
 }
 .ui-intro .div-icon{
 	padding-left: 68px;
-}
-.ui-intro .div-icon1{
 	padding-top: 30px;
-}
-.ui-intro .div-icon2{
-	padding-top: 48px;
-}
-.ui-intro .div-icon3{
-	padding-top: 40px;
 }
 .ui-intro .icon-intro1{
 	display: inline-block;
-	width: 91px;
-	height: 108px;
+	width: 104px;
+	height: 104px;
 	background: url("../../images/index/icon-intro1.png") no-repeat;
 }
 .ui-intro .icon-intro2{
 	display: inline-block;
-	width: 91px;
-	height: 91px;
+	width: 104px;
+	height: 104px;
 	background: url("../../images/index/icon-intro2.png") no-repeat;
 }
 .ui-intro .icon-intro3{
 	display: inline-block;
-	width: 91px;
-	height: 99px;
+	width: 104px;
+	height: 104px;
 	background: url("../../images/index/icon-intro3.png") no-repeat;
 }
 .ui-intro .info{
@@ -148,36 +140,57 @@
 }
 .ui-intro .info h3{
 	font-size: 18px;
-	color: #c0a354;
+	color: #00afeb;
 	font-weight: normal;
 }
 .ui-intro .info p{
 	color: #707070;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 /* 新手专享 */
 .ui-newcomer{
 	height: 128px;
-	border: 1px solid #14cad0;
-	background: #ffffff;
+	border: 1px solid #f6a29c;
+	background: #fcfaf6;
 	position: relative;
 	cursor: pointer;
 }
-.ui-newcomer:hover{
-	box-shadow: 0 4px 6px #c4c4c4;
-}
 .ui-newcomer .icon-newcomer{
 	position: absolute;
-	left: -1px;
-	top: -10px;
+	left: 10px;
+	top: -6px;
 	display: inline-block;
-	width: 282px;
-	height: 138px;
+	width: 39px;
+	height: 94px;
 	background: url("../../images/index/icon-xinshou.png") no-repeat;
 }
+.ui-newcomer .icon-newsimg{
+	position: absolute;
+	left: 55px;
+	top: 6px;
+	display: inline-block;
+	width: 208px;
+	height: 118px;
+	background: url("../../images/index/icon-newsimg.png") no-repeat;
+}
+.ui-newcomer .icon-newline{
+	display: inline-block;
+	width: 1px;
+	height: 111px;
+	position: absolute;
+	background: url("../../images/index/news_line.png") no-repeat;
+}
+.ui-newcomer .icon-newline1{
+	top: 8px;
+	left: 285px;
+}
+.ui-newcomer .icon-newline2{
+	top: 8px;
+	right: 250px;
+}
 .ui-newcomer .item{
-	padding-left: 290px;
+	padding-left: 313px;
 }
 .ui-newcomer .item-info{
 	padding-top: 23px;
@@ -202,7 +215,7 @@
 	font-size: 24px;
 }
 .ui-newcomer .item-info .attr span{
-	margin-right: 20px;
+	margin-right: 15px;
 }
 .ui-newcomer .item-info .attr .icon-ensure{
 	display: inline-block;
@@ -212,9 +225,6 @@
 	margin-right: 7px;
 	vertical-align: -5px;
 }
-.ui-newcomer .item-info .attr .p1{
-	padding-left: 29px;
-}
 .ui-newcomer .item-handle{
 	width: 210px;
 }
@@ -222,7 +232,7 @@
 	width: 155px;
 }
 .ui-newcomer .item-handle .jindu{
-	color: #c6ab62;
+	color: #00afeb;
 	font-size: 12px;
 }
 .ui-newcomer .item-handle .link {
@@ -236,30 +246,95 @@
 }
 
 /* 自动理财 */
+.ui-automatic .title{
+	background: #ffe2df;
+    border-radius: 4px 4px 0 0;
+    height: 66px;
+    overflow: hidden;
+}
+.ui-automatic .name {
+    background: rgba(0, 0, 0, 0) url("../../images/index/time.png") no-repeat scroll 0px 10px;
+    float: left;
+    height: 66px;
+    padding-left: 100px;
+    padding-right: 19px;
+}
+.ui-automatic .name > p {
+    color: #ed5f4e;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 12px;
+}
+.ui-automatic .name > p + p {
+    color: #ed5f4e;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 0;
+}
+.ui-automatic .border {
+    border-right: 1px solid #ffd7d2;
+    float: left;
+    height: 36px;
+    margin-top: 15px;
+}
+.ui-automatic .titleintro {
+    float: left;
+    padding-left: 18px;
+}
+.ui-automatic .titleintro > p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 12px;
+}
+.ui-automatic .titleintro > p > a {
+    color: #ed5f4e;
+    text-decoration: none;
+}
+.ui-automatic .titleintro > p > a:hover {
+    color: #ed5f4e;
+    text-decoration: underline;
+}
+.ui-automatic .titleintro > p + p {
+    color: #ff9d91;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 0;
+}
+.ui-automatic .title .more {
+    background: rgba(0, 0, 0, 0) url("../images/index/morearrbg.png") no-repeat scroll right -113px;
+    color: #fe9588;
+    float: right;
+    font-size: 14px;
+    line-height: 66px;
+    margin-right: 5px;
+    padding-right: 11px;
+    text-decoration: none;
+}
+.ui-automatic .title .more:hover {
+    background-position: right -183px;
+    color: #ed5f4e;
+}
+.ui-automatic .title .word {
+    color: #ff9d91;
+    float: right;
+    font-size: 12px;
+    line-height: 66px;
+    padding-right: 13px;
+}
 .ui-automatic li{
 	float: left;
 	height: 230px;
-	width: 245px;
+	width: 248px;
 	background: #ffffff;
 	position: relative;
-	margin-right: 4px;
-	cursor: pointer;
-
-	-moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: #c9b173 #f0f1f2 #f0f1f2;
-    border-image: none;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 2px 1px 1px;
-    transition: all 0.3s ease 0s;
+	border-radius: 0 0 0 4px;
+	border: 1px solid #e9e9e9;
 }
 .ui-automatic li:hover{
-	border-color: #c9b173;
-    box-shadow: 0 4px 6px #d9d9de;
+	box-shadow: 0 4px 6px #c4c4c4;
     cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
 .ui-automatic li.last{
 	margin-right: 0px;
@@ -277,11 +352,11 @@
 .ui-automatic .bottom {
 	height: 58px;
 	line-height: 58px;
-	background-color: #fcfaf6;
 	padding-right: 25px;
 	position: absolute;
 	bottom: 0px;
-	width: 220px;
+	width: 223px;
+	border-top: 1px solid #e9e9e9;
 }
 .ui-automatic .bottom .btn{
 	padding-left: 25px;
@@ -295,9 +370,10 @@
 .ui-automatic .bottom .icon-time{
 	display: inline-block;
 	width: 58px;
-	height: 58px;
-	background: url("../../images/index/icon-time.png") no-repeat 15px 15px;
-	border-right: 1px solid #ffffff;
+	height: 50px;
+	background: url("../../images/index/icon-time.png") no-repeat 15px 12px;
+	border-right: 1px solid #e9e9e9;
+	margin-top: 4px;
 }
 .ui-automatic .con{
 	text-align: center;

@@ -26,16 +26,14 @@
 	background: #f6f6f6;
 	border-bottom: 1px solid #e5e5e5;
 	font-size: 13px;
-}
-.ui-topbar .span-phone{
-	color: #cc9966;
+    color: #999999;
 }
 .ui-topbar .icon-phone{
 	display: inline-block;
-	width: 19px;
-	height: 19px;
+	width: 13px;
+	height: 13px;
 	background: url("../images/common/icon-phone.png") no-repeat;
-	vertical-align: -4px;
+	vertical-align: -2px;
 	margin-right: 5px;
 }
 .ui-topbar .nav-link li{
@@ -44,17 +42,36 @@
 	padding-right: 10px;
 	background: url("../images/common/navLink_line.png") no-repeat right center;
 }
+.ui-topbar .nav-link li a{
+    color: #999999;
+}
 .ui-topbar .nav-link li.last{
 	padding-right: 0px;
 	background: none;
 }
-.ui-topbar .nav-link li .icon-niu{
+.ui-topbar .nav-link li .icon-user{
 	display: inline-block;
-	width: 19px;
-	height: 19px;
-	background: url("../images/common/icon_niu.png") no-repeat;
-	vertical-align: -4px;
+	width: 14px;
+	height: 14px;
+	background: url("../images/common/icon-user.png") no-repeat;
+	vertical-align: -2px;
 	margin-right: 5px;
+}
+.ui-topbar .nav-link li .icon-arrow{
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    background: url("../images/common/icon-arrow.png") no-repeat;
+    vertical-align: 1px;
+    margin-left: 5px;
+}
+.ui-topbar .nav-link li .icon-kefu{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background: url("../images/common/icon-kefu.png") no-repeat;
+    vertical-align: -2px;
+    margin-right: 5px;
 }
 .ui-header-main{
 	height: 100px;
@@ -79,6 +96,9 @@
 .ui-nav li a{
 	font-size: 17px;
 }
+.ui-nav li a:hover{
+    color: #e9460b;
+}
 
 /* 底部 */
 .ui-footer{
@@ -99,7 +119,7 @@
     left: 0;
     position: absolute;
     top: 14px;
-    background-color: #f5edd8;
+    background-color: #caebf4;
 }
 .ui-rate .progressBar,.ui-rate .progressBar .barIn{
 	border-radius: 2px;
@@ -111,7 +131,7 @@
     width: 120px;
 }
 .ui-rate .progressBar .barIn{
-	background-color: #c0a353;
+	background-color: #00afeb;
     display: inline-block;
 }
 
