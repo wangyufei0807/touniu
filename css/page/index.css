@@ -343,8 +343,24 @@
 	height: 59px;
 	line-height: 59px;
 	border-bottom: 1px solid #fcfaf6;
-	color: #c0a354;
+	color: #f6a29c;
 	padding-left: 20px;
+}
+.ui-automatic .tit.day30{
+	background: url("../../images/index/title30bg.jpg") no-repeat 28px 20px;
+	padding-left: 65px;
+}
+.ui-automatic .tit.day90{
+	background: url("../../images/index/title90bg.jpg") no-repeat 28px 20px;
+	padding-left: 65px;
+}
+.ui-automatic .tit.day180{
+	background: url("../../images/index/title180bg.jpg") no-repeat 28px 20px;
+	padding-left: 75px;
+}
+.ui-automatic .tit.day360{
+	background: url("../../images/index/title360bg.jpg") no-repeat 28px 20px;
+	padding-left: 75px;
 }
 .ui-automatic .tit .span-c{
 	color: #999;
@@ -360,6 +376,7 @@
 }
 .ui-automatic .bottom .btn{
 	padding-left: 25px;
+	line-height: 52px;
 }
 .ui-automatic .bottom .btn .ui-button{
 	width: 165px;
@@ -408,14 +425,19 @@
 	line-height: 89px;
 }
 .ui-direct .tit h3{
-	padding-left: 205px;
-	background: url("../../images/index/direct_tit.png") no-repeat 15px 29px;
-	color: #c9af6b;
+	padding-left: 30px;
+	color: #999999;
 	font-weight: normal;
+}
+.ui-direct .tit h3 span{
+	font-size: 18px;
+	color: #4c4949;
+	font-weight: bold;
+	margin-right: 10px;
 }
 .ui-direct .tit .more{
 	font-size: 12px;
-	color: #c9af6b;
+	color: #999999;
 }
 .ui-direct .list{
 	margin-bottom: -8px;
@@ -444,11 +466,13 @@
 }
 
 .ui-direct .list .name{
-	height: 70px;
-	padding-top: 15px;
+	height: 65px;
+	padding-top: 20px;
 }
-.ui-direct .list .name .youniu{
+.ui-direct .list .name span{
 	margin-left: 15px;
+	color: #00afeb;
+	font-size: 12px;
 }
 .ui-direct .list .name h3{
 	font-size: 16px;
@@ -492,7 +516,7 @@
 .ui-direct .list .jindu{
 	color: #c6ab62;
 	font-size: 12px;
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .ui-direct .list .ui-button{
 	width: 165px;
