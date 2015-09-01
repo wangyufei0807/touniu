@@ -219,9 +219,9 @@
 }
 .ui-newcomer .item-info .attr .icon-ensure{
 	display: inline-block;
-	width: 22px;
-	height: 22px;
-	background: url("../../images/index/icon-ensure.png") no-repeat 3px;
+	width: 17px;
+	height: 18px;
+	background: url("../../images/index/icon-ensure2.png") no-repeat;
 	margin-right: 7px;
 	vertical-align: -5px;
 }
@@ -397,7 +397,7 @@
 	padding-top: 20px;
 }
 .ui-automatic .con .syl{
-	color: #fa4f19;
+	color: #e9460b;
 	display: inline-block;
 }
 .ui-automatic .con .syl .span1{
@@ -440,21 +440,21 @@
 	color: #999999;
 }
 .ui-direct .list{
-	margin-bottom: -8px;
+	margin-bottom: -12px;
 	overflow: hidden;
 }
 .ui-direct .list li{
-	width: 240px;
-	height: 307px;
+	width: 237px;
+	height: 303px;
 	background: #ffffff;
 	position: relative;
 	float: left;
 	margin-right: 12px;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
+	border: 2px solid #ffffff;
 }
 .ui-direct .list li:hover{
-	box-shadow: 0 4px 6px #c4c4c4;
-    cursor: pointer;
+	border: 2px solid #d4d4d4;
 }
 .ui-direct .list li .zhejiao{
 	width: 19px;
@@ -470,15 +470,16 @@
 	padding-top: 20px;
 }
 .ui-direct .list .name span{
-	margin-left: 15px;
+	margin-left: 25px;
 	color: #00afeb;
 	font-size: 12px;
 }
 .ui-direct .list .name h3{
 	font-size: 16px;
 	font-weight: normal;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 3px;
 }
 .ui-direct .list .attr{
 	border-top: 1px solid #d4d4d4;
@@ -494,12 +495,12 @@
 	padding-top: 15px;
 }
 .ui-direct .list .attr .attr-c .red{
-	color: #fa4f19;
-	font-size: 22px;
+	color: #e9460b;
+	font-size: 28px;
 	line-height: 30px;
 }
 .ui-direct .list .attr .attr-c .blank{
-	font-size: 22px;
+	font-size: 28px;
 	color: #7c7c7c;
 	line-height: 30px;
 }
@@ -509,12 +510,20 @@
 	line-height: 50px;
 	text-align: center;
 }
+.ui-direct .list .p1 .icon-ensure{
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background: url("../../images/index/icon-ensure.png") no-repeat;
+	vertical-align: -3px;
+	margin-right: 8px;
+}
 .ui-direct .list .btn-box,.ui-direct .list .jindu,.ui-direct .list .time{
 	padding-left: 22px;
 	padding-right: 22px;
 }
 .ui-direct .list .jindu{
-	color: #c6ab62;
+	color: #00afeb;
 	font-size: 12px;
 	margin-bottom: 10px;
 }
@@ -522,7 +531,7 @@
 	width: 165px;
 }
 .ui-direct .list .time{
-	color: #fa8d19;
+	color: #00afeb;
 	line-height: 25px;
 }
 .ui-direct .list .time span{
