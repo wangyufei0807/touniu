@@ -36,20 +36,24 @@
 	vertical-align: -2px;
 	margin-right: 5px;
 }
-.ui-topbar .nav-link li{
+.ui-topbar .nav-link li.item{
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
 	background: url("../images/common/navLink_line.png") no-repeat right center;
+    position: relative;
 }
-.ui-topbar .nav-link li a{
+.ui-topbar .nav-link li.item a{
     color: #999999;
 }
-.ui-topbar .nav-link li.last{
+.ui-topbar .nav-link li.item a:hover{
+    color: #00afeb;
+}
+.ui-topbar .nav-link li.item.last{
 	padding-right: 0px;
 	background: none;
 }
-.ui-topbar .nav-link li .icon-user{
+.ui-topbar .nav-link li.item .icon-user{
 	display: inline-block;
 	width: 14px;
 	height: 14px;
@@ -57,7 +61,7 @@
 	vertical-align: -2px;
 	margin-right: 5px;
 }
-.ui-topbar .nav-link li .icon-arrow{
+.ui-topbar .nav-link li.item .icon-arrow{
     display: inline-block;
     width: 7px;
     height: 4px;
@@ -65,7 +69,18 @@
     vertical-align: 1px;
     margin-left: 5px;
 }
-.ui-topbar .nav-link li .icon-kefu{
+.ui-topbar .nav-link li.cur .icon-arrow{
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    background: url("../images/common/icon-arrow2.png") no-repeat;
+    vertical-align: 1px;
+    margin-left: 5px;
+}
+.ui-topbar .nav-link li.cur a{
+    color: #00afeb;
+}
+.ui-topbar .nav-link li.item .icon-kefu{
     display: inline-block;
     width: 16px;
     height: 14px;
@@ -73,6 +88,89 @@
     vertical-align: -2px;
     margin-right: 5px;
 }
+.ui-topbar .nav-link li.item .icon-msg{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    background: url("../images/common/icon-lingdang.png") no-repeat;
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+.ui-topbar .nav-link .user-menu {
+    background: #ffffff none repeat scroll 0 0;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    width: 110px;
+    z-index: 100;
+    border: 1px solid #cbcbcb;
+}
+.ui-topbar .nav-link .user-menu .top {
+    background: #f1f1f1 none repeat scroll 0 0;
+    height: 50px;
+}
+.ui-topbar .nav-link .user-menu .top img {
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 5px;
+    width: 40px;
+}
+.ui-topbar .nav-link .user-menu .top .loginout {
+    color: #e9460b;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.ui-topbar .nav-link .user-menu ul {
+    padding: 10px 0;
+}
+.ui-topbar .nav-link .user-menu ul li {
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+}
+.ui-topbar .nav-link .user-menu ul li a {
+    color: #707070;
+}
+.ui-topbar .nav-link .user-menu ul li a:hover {
+    color: #00afeb;
+}
+.ui-topbar .nav-link .user-menu ul li .icon-ucenter {
+    display: inline-block;
+    background: url("../images/common/icon-ucenter.png") no-repeat;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 16px;
+}
+.ui-topbar .nav-link .user-menu ul li .icon-recharge {
+    display: inline-block;
+    background: url("../images/common/icon-recharge.png") no-repeat;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 16px;
+}
+.ui-topbar .nav-link .user-menu ul li .icon-touzi {
+    display: inline-block;
+    background: url("../images/common/icon-touzi.png") no-repeat;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 16px;
+}
+.ui-topbar .nav-link .user-menu ul li .icon-assets {
+    display: inline-block;
+    background: url("../images/common/icon-assets.png") no-repeat;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 16px;
+}
+
 .ui-header-main{
 	height: 100px;
 }
@@ -117,7 +215,7 @@
     padding-right: 4px;
 }
 .ui-nav li.item .sublist li:hover{
-    background: #ffe2df;
+    background: #f1f1f1;
 }
 .ui-nav li.item .sublist li a{
     display: inline-block;
@@ -132,8 +230,17 @@
     display: inline-block;
     width: 9px;
     height: 5px;
+    background: url("../images/common/icon-navarrow2.png") no-repeat;
+    margin-left: 3px;
+    vertical-align: 2px;
+}
+.ui-nav li.subitem .arrow{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
     background: url("../images/common/icon-navarrow.png") no-repeat;
     margin-left: 3px;
+    vertical-align: 2px;
 }
 
 /* 底部 */
@@ -563,4 +670,69 @@ a.ui-button-yhq, a.ui-button-yhq:active, a.ui-button-yhq:hover {
     line-height: 33px;
     float: left;
     text-align: center;
+}
+
+/* 分页 */
+.ui-paging{
+    display: inline-block;
+}
+.ui-paging a{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+    border-radius:4px; 
+}
+.ui-paging span.current {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    border-radius:4px; 
+    background: #e9460b;
+    border: 1px solid #e9460b;
+    color: #ffffff;
+    
+}
+.ui-paging a,.ui-paging span.current{
+    margin-left: 10px;
+}
+.ui-paging a.prev,.ui-paging a.next{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ui-paging a.prev .prevL{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #d4d4d4;
+    margin-top: 3px;
+    background: url("../images/common/page_left.png") no-repeat;
+    float: left;
+}
+.ui-paging a.prev .prevR{
+    display: inline-block;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ui-paging a.next .nextL{
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ui-paging a.next .nextR{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #d4d4d4;
+    margin-top: 3px;
+    background: url("../images/common/page_right.png") no-repeat;
+    float: right;
 }

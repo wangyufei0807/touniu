@@ -15,6 +15,14 @@
 <script type="text/javascript">
     seajs.use("../js/page/base.js");
 </script>
+<script type="text/javascript">
+    (function () {
+        if (navigator.userAgent.indexOf("MSIE 7.") > 0) {
+            location.href = '/Prompt/Obsolete';
+        }
+    })();
+</script>
+
 
 <link rel="stylesheet" type="text/css" href="../css/page/index.css">
 </head>
@@ -29,11 +37,29 @@
                 </div>
                 <div class="f-fr">
                     <ul class="nav-link f-cb">
-                        <li><a href="#"><i class="icon-user"></i>个人中心<i class="icon-arrow"></i></a></li>
-                        <li><a href="#">我要融资</a></li>
-                        <li><a href="#"><i class="icon-kefu"></i>在线客服</a></li>
+                        <li class="item"><a href="#">我要融资</a></li>
+                        <li class="item"><a href="#"><i class="icon-kefu"></i>在线客服</a></li>
+                        <!--
                         <li><a href="#">注册</a></li>
                         <li class="last"><a href="#">登陆</a></li>
+                        <!-->
+                        <li class="item"><a href="#"><i class="icon-msg"></i>消息</a></li>
+                        <li id="j-usernavdown" class="item last"><a href="#"><i class="icon-user"></i>个人中心<i class="icon-arrow"></i></a>
+                            <div class="user-menu" style="display: none;">
+                                <div class="content">
+                                    <div class="top">
+                                        <a class="f-fl" href="#"><img src="../images/common/header.png" id="user-photo"> </a>
+                                        <a class="loginout f-fl" href="#">退出</a>
+                                    </div>
+                                    <ul>
+                                        <li><a class="ucenter" href="#"><i class="zr-icon icon-ucenter"></i> 个人中心</a> </li>
+                                        <li><a class="recharge" href="#"><i class="zr-icon icon-recharge"></i> 账户充值</a> </li>
+                                        <li><a class="touzi" href="#"><i class="zr-icon icon-touzi"></i> 投资记录</a> </li>
+                                        <li><a class="assets" href="#"><i class="zr-icon icon-assets"></i> 资产统计</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>  
@@ -43,7 +69,7 @@
                 <a href="#" class="ui-header-logo"></a>
                 <ul class="ui-nav">
                     <li class="item"><a href="#">首页</a></li>
-                    <li id="subnav" class="item subitem"><a class="dropdown" href="#">我要投资<i class="arrow"></i></a>
+                    <li id="subnav" class="item"><a class="dropdown" href="#">我要投资<i class="arrow"></i></a>
                         <ul class="sublist " style="display: none">
                             <li><a href="#">投A股</a></li>
                             <li><a href="#">投H股</a></li>
@@ -321,8 +347,16 @@
                                 </div>
                             </div>
                             <p class="p1"><i class="icon-ensure"></i>高收益 有保障</p>
-                            <div class="time pb15">
-                                <span class="day">00</span>天<span class="hour">00</span>时<span class="minute">05</span>分<span class="second">09</span>秒
+                            <div class="btn-forward time pb15">
+                                <span class="day">15</span>天<span class="hours">00</span>时<span class="minute">05</span>分<span class="second">09</span>秒
+                            </div>
+                            <div class="jindu" style="display:none">
+                                已募集<span class="num">0%</span>
+                                <span class="ui-rate">
+                                    <span class="progressBar">
+                                        <span style="width: 0%;" class="barIn"></span>
+                                    </span>
+                                </span>
                             </div>
                             <div class="btn-box">
                                 <a target="_blank" class="ui-button ui-button-mid ui-button-orange" href="#">即将发布</a>
@@ -440,8 +474,16 @@
                                 </div>
                             </div>
                             <p class="p1"><i class="icon-ensure"></i>高收益 有保障</p>
-                            <div class="time pb15">
-                                <span class="day">00</span>天<span class="hour">00</span>时<span class="minute">05</span>分<span class="second">09</span>秒
+                            <div class="btn-forward time pb15">
+                                <span class="day">00</span>天<span class="hours">00</span>时<span class="minute">00</span>分<span class="second">09</span>秒
+                            </div>
+                            <div class="jindu" style="display:none">
+                                已募集<span class="num">0%</span>
+                                <span class="ui-rate">
+                                    <span class="progressBar">
+                                        <span style="width: 0%;" class="barIn"></span>
+                                    </span>
+                                </span>
                             </div>
                             <div class="btn-box">
                                 <a target="_blank" class="ui-button ui-button-mid ui-button-orange" href="#">即将发布</a>
@@ -655,12 +697,7 @@
         </div>
     </div>
 <script type="text/javascript">
-    var lefttime = 1029352;
-    var runtimes = 0;
-
-    seajs.use("../js/page/index.js",function(index){
-        index.GetRTime();
-    });
+    seajs.use("../js/page/index.js");
 </script>
 </div>
 </body>

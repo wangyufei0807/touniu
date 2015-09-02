@@ -1,0 +1,209 @@
+/*
+* @description: 列表模块样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-09-2
+*/
+
+.list-wrap .boder{
+	border: 1px solid #f0f0f0;
+}
+
+.ui-topBox .topBoxR{
+	float: right;
+	width: 260px;
+}
+.ui-topBox .topBoxR .icon-jsq{
+	display: inline-block;
+	width: 110px;
+	height: 135px;
+	background: url("../../images/list/jsq.png") no-repeat;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+.ui-topBox .topBoxL{
+	float: left;
+	width: 700px;
+	padding-left: 40px
+}
+
+/* 面包屑导航 */
+.ui-crumb{
+	margin-top: 20px;
+	height: 27px;
+	line-height: 27px;
+	border-bottom:1px solid #cecece;
+	font-size: 12px;
+	color: #999999; 
+}
+.ui-crumb a{
+	color: #999999;
+}
+.ui-crumb .icon-weizhi{
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	background: url("../../images/list/icon-weizhi.png") no-repeat;
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+/* 筛选 */
+.ui-filter{
+	font-size: 16px;
+}
+.ui-filter .item span {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+}
+.ui-filter .item li {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 15px;
+}
+.ui-filter .item li a{
+	height: 23px;
+	line-height: 23px;
+}
+.ui-filter .item li a, .ui-filter .item li a:hover {
+    color: #808080;
+}
+.ui-filter .item li a.active {
+    background: #fa4f19 none repeat scroll 0 0;
+    color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+    height: 23px;
+    line-height: 23px;
+}
+
+/* 项目列表 */
+.ui-projectList{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ui-projectList li.item{
+	height: 136px;
+	border: 2px solid #d4d4d4;
+	position: relative;
+	margin-bottom: 15px;
+}
+.ui-projectList li.item:hover{
+	border: 2px solid #f6a29c;
+}
+.ui-projectList li.item .icon-hot{
+	display: inline-block;
+	width: 39px;
+	height: 94px;
+	background: url("../../images/list/icon-hot.png") no-repeat;
+	position: absolute;
+	top: -5px;
+	right: 5px;
+}
+.ui-projectList li.item .itemL{
+	float: left;
+	width: 575px;
+	padding-left: 25px;
+	padding-right: 45px;
+}
+.ui-projectList li.item .itemL .title{
+	border-bottom: 1px solid #d4d4d4;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.ui-projectList li.item .itemL .title .icon-ensure{
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background: url("../../images/index/icon-ensure.png") no-repeat;
+	vertical-align: -3px;
+	margin-right: 8px;
+}
+.ui-projectList li.item .itemL .title span.baozhang{
+	color: #999999;
+	font-size: 12px;
+	float: right;
+}
+.ui-projectList li.item .itemL .title p{
+	font-size: 16px;
+	color: #4c4949;
+}
+.ui-projectList li.item .itemL .title span.jihua{
+	color: #00afeb;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.ui-projectList li.item .itemL .attr li{
+	float: left;
+	margin-left: 50px;
+	color: #7c7c7c;
+	font-size: 12px;
+}
+.ui-projectList li.item .itemL .attr li span{
+	font-size: 28px;
+	margin-right: 5px;
+}
+.ui-projectList li.item .itemL .attr{
+	padding-top: 10px;
+}
+.ui-projectList li.item .itemL .attr li span.red{
+	color: #e9460b;
+}
+.ui-projectList li.item .itemR{
+	float: right;
+	width: 195px;
+	padding-left: 53px;
+	padding-right: 63px;
+	padding-top: 15px;
+}
+.ui-projectList li.item .itemR .jindu{
+	color: #00afeb;
+	font-size: 12px;
+}
+.ui-projectList li.item .itemR .ui-button{
+	width: 100%;
+	padding: 0px;
+}
+.ui-projectList li.item .itemR .surplusMoney{
+	color: #00afeb;
+	margin-bottom: 10px;
+}
+.ui-projectList li.item .itemR .surplusMoney a{
+	color: #00afeb;
+}
+.ui-projectList li.item .line{
+	display: inline-block;
+	width: 1px;
+	height: 101px;
+	background: url("../../images/list/line_bg.png") no-repeat;
+	position: absolute;
+	top: 18px;
+	right: 310px;
+}
+
+.ui-projectList li.item .time{
+	color: #00afeb;
+	line-height: 25px;
+}
+.ui-projectList li.item .time span{
+	display: inline-block;
+	width: 27px;
+	height: 25px;
+	background-color: #eceff4;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	font-size: 20px;
+	font-family: "Arial";
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.ui-projectList li.item span.day{
+	margin-left: 0px;
+}
