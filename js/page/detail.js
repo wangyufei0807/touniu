@@ -1,20 +1,39 @@
 /*
-* @description: 列表JS模块 
+* @description: 详情JS模块 
 * @author: wyf  
 * @email: 707366656@qq.com
 * @time: 2015-08-29
 */
 define(function(require, exports, module){
 	require("jquery");
-
+    require("tabs");
+    require("superslide");
+    require("jqueryslide");
+    require("fancybox");
 	$(function(){
 
 		//倒计时
 		GetRTime();
+
+        //tabs 切换
+        $("#pdtab").tabso({
+            cntSelect:"#pdcon",
+            tabEvent:"click",
+            tabStyle:"normal"
+        });
+
+        /* 补充资料效果 */
+        $(".imgslid").slide({titCell:".hd ul",mainCell:".list ul",autoPage:true,effect:"left",autoPlay:false,vis:2,scroll:1,prevCell:".backward",nextCell:".forward",trigger:"click"});
+        $(".fancybox").fancybox();
+        $("#j-sliderbox").Slide({
+            effect : "scroolLoop",
+            autoPlay:false,
+            speed : "normal",
+            timer : 3000,
+            steps:1
+        });
+
 	})
-    function aa(){
-        alert(11111);
-    }
 
 	//倒计时
 	function GetRTime(){

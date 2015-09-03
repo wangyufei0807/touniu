@@ -47,6 +47,22 @@
 	margin-right: 5px;
 	vertical-align: -2px;
 }
+.ui-crumb .jsq{
+	float: right;
+	margin-top: -7px;
+}
+.ui-crumb .jsq .icon-jsq{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url("../../images/list/icon-jsq.png") no-repeat;
+	vertical-align: -6px;
+	margin-left: 10px;
+}
+.ui-xinshou {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 /* 筛选 */
 .ui-filter{
@@ -80,10 +96,24 @@
     line-height: 23px;
 }
 
+/* 没有项目 */
+.no-result{
+	height: 44px;
+	background: #e3f5fb;
+	text-align: center;
+	font-size: 16px;
+	line-height: 44px;
+	color: #4c4949;
+}
+.no-result span{
+	color: #e9460b;
+}
+
 /* 项目列表 */
 .ui-projectList{
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 20px;
 }
 .ui-projectList li.item{
 	height: 136px;
@@ -105,17 +135,15 @@
 }
 .ui-projectList li.item .itemL{
 	float: left;
-	width: 575px;
-	padding-left: 25px;
-	padding-right: 45px;
+	width: 550px;
+	padding-left: 35px;
+	padding-right: 60px;
 }
 .ui-projectList li.item .itemL .title{
 	border-bottom: 1px solid #d4d4d4;
 	height: 40px;
 	line-height: 40px;
 	margin-top: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 .ui-projectList li.item .itemL .title .icon-ensure{
 	display: inline-block;
@@ -141,19 +169,31 @@
 }
 .ui-projectList li.item .itemL .attr li{
 	float: left;
-	margin-left: 50px;
 	color: #7c7c7c;
 	font-size: 12px;
 }
 .ui-projectList li.item .itemL .attr li span{
-	font-size: 28px;
+	font-size: 12px;
 	margin-right: 5px;
+	color: #e9460b;
 }
 .ui-projectList li.item .itemL .attr{
-	padding-top: 10px;
+	padding-top: 25px;
 }
 .ui-projectList li.item .itemL .attr li span.red{
 	color: #e9460b;
+	font-size: 22px;
+	float: left;
+	margin-top: -10px;
+}
+.ui-projectList li.item .itemL .attr li.li1{
+	text-align: left;
+}
+.ui-projectList li.item .itemL .attr li.li2{
+	text-align: center;
+}
+.ui-projectList li.item .itemL .attr li.li3{
+	float: right;
 }
 .ui-projectList li.item .itemR{
 	float: right;
