@@ -88,7 +88,22 @@
 .ui-attr2 li.l1{
 	width: 50%;
 }
-
+.ui-attr2 li .icon-dunpai{
+	display: inline-block;
+	width: 15px;
+	height: 17px;
+	background: url("../../images/detail/icon-dunpai.png") no-repeat;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
+.ui-attr2 li .icon-wendang{
+	display: inline-block;
+	width: 15px;
+	height: 17px;
+	background: url("../../images/detail/icon-wendang.png") no-repeat;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
 .ui-attr3{
 	padding-left: 20px;
 	padding-top: 10px;
@@ -114,35 +129,226 @@
 
 
 /* 未登录 */
-.ui-nologin p.item{
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	border: 1px dashed #eee;
-	margin-bottom: 10px;
+.ui-nologin a{
+	margin-top: 80px;
+	width: 100%;
+	padding: 0px;
 }
-.ui-nologin p.item2{
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	height: 144px;
-	line-height: 144px;
+
+/* 实名认证 */
+.ui-authName a{
+	margin-top: 80px;
+	width: 100%;
+	padding: 0px;
 }
+
 
 /* 已登录 */
 .ui-login p.item{
 	height: 30px;
 	line-height: 30px;
-	text-align: center;
-	border: 1px dashed #eee;
-	margin-bottom: 10px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-login p.item .red{
+	color: #f15000;
 }
 .ui-login p.item2{
+	font-size: 16px;
+	text-align: left;
+	padding-top: 10px;
+}
+.ui-login p.item2{
+	position: relative;
+	margin-bottom: 35px;
+}
+.ui-login p.item2 .ui-input{
+	height: 20px;
+	padding: 10px 28px 10px 13px;
+	width: 230px;
+	border: 1px solid #e9eaec;
+}
+.ui-login p.item2 span.yuan{
+	position: absolute;
+	right: 10px;
+    top: 18px;
+}
+.ui-login p.btn .ui-button{
+	padding: 0px;
+	width: 100%;
+}
+
+/* 已流标 */
+.ui-liubiao p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-liubiao p.item2{
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	height: 144px;
-	line-height: 144px;
+	height: 75px;
+	line-height: 75px;
+	margin-bottom: 15px;
+	color: #d4d4d4;
+}
+.ui-liubiao p.item a.red{
+	color: #f15000;
+}
+.ui-liubiao p.btn .ui-button{
+	width: 100%;
+	padding: 0px;
+	background: #d4d4d4;
+}
+
+/* 已满标 */
+.ui-manbiao p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-manbiao p.item2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	height: 75px;
+	line-height: 75px;
+	margin-bottom: 15px;
+	color: #a32d08;
+}
+.ui-manbiao p.item a.red{
+	color: #f15000;
+}
+.ui-manbiao p.btn .ui-button{
+	width: 100%;
+	padding: 0px;
+}
+
+/* 已还清 */
+.ui-huanqing p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-huanqing p.item2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	height: 75px;
+	line-height: 75px;
+	margin-bottom: 15px;
+	color: #c2c3d2;
+}
+.ui-huanqing p.item a.red{
+	color: #f15000;
+}
+.ui-huanqing .ui-button-yhq{
+	width: 270px;
+}
+.ui-huanqing .ui-button-yhq span.statusR{
+	width: 225px;
+}
+
+/* 还款中 */
+.ui-huankuanzhong p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-huankuanzhong .item2{
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 10px;
+}
+.ui-huankuanzhong p.p1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #454985;
+}
+.ui-huankuanzhong p.p2{
+	color: #999999;
+}
+.ui-huankuanzhong p.item a.red{
+	color: #f15000;
+}
+.ui-huankuanzhong .ui-button-hkz{
+	width: 270px;
+}
+.ui-huankuanzhong .ui-button-hkz span.statusR{
+	width: 225px;
+}
+
+/* 即将发布 */
+.ui-jjfb p.item{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.ui-jjfb .item2{
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+.ui-jjfb p.p1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #454985;
+}
+.ui-jjfb p.p2{
+	color: #999999;
+}
+.ui-jjfb p.item a.red{
+	color: #f15000;
+}
+
+.ui-jjfb .ui-button{
+	padding: 0px;
+	width: 100%;
+}
+.ui-jjfb .sxsj{
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.ui-jjfb .time{
+	color: #00afeb;
+	line-height: 25px;
+}
+.ui-jjfb .time span{
+	display: inline-block;
+	width: 27px;
+	height: 25px;
+	background-color: #eceff4;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	font-size: 20px;
+	font-family: "Arial";
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.ui-jjfb .time .day{
+	margin-left: 0px;
+}
+
+/* sorry */
+.ui-sorry{
+	padding-top: 20px;
+	padding-left: 30px;
 }
 
 .ui-detailCon{

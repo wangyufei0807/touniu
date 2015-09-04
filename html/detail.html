@@ -106,7 +106,6 @@
                     <div class="pl20 pr20">
                         <div class="ui-tit">
                             <span class="f18">玉石销售企业流动资金借款（三期）</span>
-                            <a class="f-fr"><i class="icon-jsq"></i></a>
                         </div>
                         <div class="ui-detailAttr p20">
                             <ul class="ui-attr1 f-cb mt15 mb15">
@@ -124,8 +123,8 @@
                                 </li>
                             </ul>
                             <ul class="ui-attr2 f-cb">
-                                <li class="l1">担保方式：资产管理公司全额回购</li>
-                                <li class="l2">还款方式：按月还款等额本息 </li>
+                                <li class="l1"><i class="icon-dunpai"></i>担保方式：资产管理公司全额回购</li>
+                                <li class="l2"><i class="icon-wendang"></i>还款方式：按月还款等额本息 </li>
                             </ul>
                             <ul class="ui-attr3 f-cb">
                                 <li class="l1 f12">起息时间：2015-05-19</li>
@@ -146,20 +145,86 @@
                             <span class="f18">投资金额</span>
                         </div>
 
-                        <!-- 未登录 -->
+                        <!-- 未登陆 -->
                         <div class="ui-nologin p20" style="display:none">
-                            <p class="item">项目可投金额：<span class="text-c1">0.00</span>元</p>
-                            <p class="item">可用余额&nbsp;<a href="javascript:void(0);" class="text-c2">登录</a>&nbsp;后可见</p>
-                            <p class="item2">本项目处在还款中</p>
-                            <p><a href="#" class="u-btn u-btn-lg u-btn-auto">投资其他项目</a></p>
+                            <a href="#" class="ui-button ui-button-large ui-button-red">立即登陆</a>
                         </div>
 
+                        <!-- 实名认证 -->
+                        <div class="ui-authName p20" style="display:none">
+                            <a href="#" class="ui-button ui-button-large ui-button-red">实名认证</a>
+                        </div>
+                        
                         <!-- 已登录 -->
                         <div class="ui-login p20" style="display:none">
-                            <p class="item">项目可投金额：<span class="text-c1">0.00</span>元</p>
-                            <p class="item">可用余额：<span class="text-c1">0.00</span>元</p>
-                            <p class="item2">本项目处在还款中</p>
-                            <p><a href="#" class="u-btn u-btn-lg u-btn-auto">投资其他项目</a></p>
+                            <p class="item">项目可投金额：<span class="red">6000000.00</span>元</p>
+                            <p class="item">可用余额：<span class="red">50000000.00</span>元</p>
+                            <p class="item2"><input type="text" class="ui-input"><span class="yuan">元</span></p>
+                            <p class="btn"><a href="#" class="ui-button ui-button-large ui-button-red">立即投资</a></p>
+                        </div>
+
+                        <!-- 已流标 -->
+                        <div class="ui-liubiao p20" style="display:none">
+                            <p class="item"><a href="#">查看同类型项目</a></p>
+                            <p class="item">可用余额：&nbsp;<a href="javascript:void(0);" class="red">登录</a>&nbsp;后可见</p>
+                            <p class="item2">本项目已流标</p>
+                            <p class="btn"><a href="#" class="ui-button ui-button-large ui-button-blue">已流标</a></p>
+                        </div>
+
+                        <!-- 已满标 -->
+                        <div class="ui-manbiao p20" style="display:none">
+                            <p class="item"><a href="#">查看同类型项目</a></p>
+                            <p class="item">可用余额：&nbsp;<a href="javascript:void(0);" class="red">登录</a>&nbsp;后可见</p>
+                            <p class="item2">本项目已满标</p>
+                            <p class="btn"><a href="#" class="ui-button ui-button-large ui-button-russetish">已满标</a></p>
+                        </div>
+                        
+                        <!-- 已还清 -->
+                        <div class="ui-huanqing p20" style="display:none">
+                            <p class="item"><a href="#">查看同类型项目</a></p>
+                            <p class="item">可用余额：&nbsp;<a href="javascript:void(0);" class="red">登录</a>&nbsp;后可见</p>
+                            <p class="item2">本项目已还清</p>
+                            <p class="btn">
+                                <a target="_blank" class="ui-button-yhq f-cb" href="#">
+                                    <span class="statusL"></span>
+                                    <span class="statusR">已还清</span>
+                                </a>
+                            </p>
+                        </div>
+                        
+                        <!-- 还款中 -->
+                        <div class="ui-huankuanzhong p20" style="display:none">
+                            <p class="item"><a href="#">查看同类型项目</a></p>
+                            <p class="item">可用余额：&nbsp;<a href="javascript:void(0);" class="red">登录</a>&nbsp;后可见</p>
+                            <div class="item2">
+                                <p class="p1">本项目处在还款中</p>
+                                <p class="p2">回款进度：共1期，已还0期</p>
+                            </div>
+                            <p class="btn">
+                                <a target="_blank" class="ui-button-hkz f-cb" href="#">
+                                    <span class="statusL"></span>
+                                    <span class="statusR">还款中</span>
+                                </a>
+                            </p>
+                        </div>
+                        
+                        <!-- 即将发布 -->
+                        <div class="ui-jjfb p20" style="display:none">
+                            <p class="item">距离上线还有：</p>
+                            <div class="item2">
+                                <div class="btn-forward time pb15">
+                                    <span class="day">00</span>天<span class="hours">00</span>时<span class="minute">10</span>分<span class="second">09</span>秒
+                                </div>
+                            </div>
+                            <p class="sxsj">预计上线时间：2015-10-10 9:00</p>
+                            <p class="btn">
+                                <a target="_blank" class="ui-button ui-button-large ui-button-orange" href="#">即将发布</a>
+                            </p>
+                        </div>
+                        
+                        <!-- sorry -->
+                        <div class="ui-sorry" style="display:block">
+                            <p><img src="../images/detail/xstqdeb_error.png" width="250" height="211"></p>
                         </div>
                     </div>
                 </div>
