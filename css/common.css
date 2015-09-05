@@ -193,7 +193,7 @@
     padding-bottom: 15px;
 }
 .ui-nav li.item a{
-	font-size: 17px;
+	font-size: 16px;
 }
 .ui-nav li.item a:hover{
     color: #e9460b;
@@ -476,6 +476,15 @@
     background-position: 0 0;
 }
 
+/* 底部2 */
+.ui-footer2{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+}
+
 /* 投标进度 */
 .ui-rate{
 	display: inline-block;
@@ -539,6 +548,19 @@
     line-height: 34px;
     min-width: 50px;
     text-align: center;
+}
+
+/* 灰色按钮 */
+.ui-button-gray {
+    background-color: #d4d4d4;
+    border: medium none;
+    color: #fff;
+}
+.ui-button-gray:hover {
+    background-color: #d4d4d4;
+}
+a.ui-button-gray, a.ui-button-gray:active, a.ui-button-gray:hover {
+    color: #fff;
 }
 
 /* 红色 - 立即投资 */

@@ -1,0 +1,160 @@
+/*
+* @description: 注册模块样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-09-5
+*/
+
+/* 错误提示 */
+.ipt-err{
+	position: absolute;
+	top: 37px;
+	left: 130px;
+	color: #e9460b;
+	font-size: 12px;
+}
+
+.ui-register .tit{
+	height: 50px;
+	line-height: 50px;
+	background: #f4f4f4;
+	position: relative;
+	z-index: 10;
+	margin-bottom: -1px;
+}
+.ui-register .tit h3{
+	width: 330px;
+	border-top: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	background: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	color: #4c4949;
+}
+.ui-register .tit .rlink{
+	float: right;
+	font-size: 12px;
+}
+.ui-register .tit .rlink a{
+	color: #e9460b;
+}
+
+.ui-register .con{
+	border:1px solid #f0f0f0;
+	height: 645px;
+	position: relative;
+}
+
+.ui-register .icon-register{
+	display: inline-block;
+	width: 22px;
+	height: 23px;
+	background: url("../../images/register/icon-register.png") no-repeat;
+	margin-right: 5px;
+	vertical-align: -3px;
+}
+.ui-register .conL{
+	float: left;
+	width: 605px;
+	padding-top: 42px;
+}
+.ui-register .conR{
+	float: left;
+}
+.ui-register .conR img{
+	margin-top: 50px;
+	margin-left: 65px;
+}
+.ui-register .register-line{
+	position: absolute;
+	display: inline-block;
+	width: 1px;
+	height: 561px;
+	top: 42px;
+	right: 390px;
+	background: url("../../images/register/register_line.png") no-repeat;
+}
+
+.ui-form .ui-ipt{
+	background: #ffffff;
+    border: 1px solid #d7d8d8;
+    padding: 7px 10px 7px 10px;
+    height: 20px;
+    width: 262px;
+}
+.ui-form .ui-ipt:focus {
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
+.ui-form .ui-iptCode{
+	width: 106px;
+	margin-right: 10px;
+}
+.ui-form .formItem{
+	padding: 0 5px 25px 130px;
+    position: relative;
+}
+.ui-form .label{
+	float: left;
+    font-size: 14px;
+    margin-left: -135px;
+    padding-top: 5px;
+    text-align: right;
+    width: 130px;
+}
+.ui-form .u-btn{
+	width: 170px;
+	height: 38px;
+}
+.ui-form .required{
+	color: red;
+    font-family: SimSun;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.ui-form .getPhoneCode{
+	display: inline-block;
+	width: 111px;
+	height: 36px;
+	background: #00afeb;
+	float: left;
+	color: #ffffff;
+	line-height: 36px;
+	text-align: center;
+}
+#regProtocol{
+	color: #00afeb;
+	font-size: 12px;
+}
+#regProtocol a{
+	color: #00afeb;
+}
+.ui-form .security{
+	color: #999999;
+}
+.ui-form .security .icon-baozhang{
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background: url("../../images/register/icon-ensure.png") no-repeat;
+	margin-right: 5px;
+	vertical-align: -3px;
+}
+.ui-form .ui-button{
+	width: 165px;
+}
+
+.register_message{
+	height: 90px;
+	margin-left: 92px;
+	background: #f2fbfe;
+	width: 395px;
+	padding-top: 6px;
+	font-size: 12px;
+	padding-left: 38px;
+	padding-right: 38px;
+	color: #999999;
+	line-height: 20px;
+}

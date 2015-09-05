@@ -1,0 +1,138 @@
+/*
+* @description: 登录模块样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-09-5
+*/
+
+/* 错误提示 */
+.ipt-err{
+	position: absolute;
+	top: 37px;
+	left: 0px;
+	color: #e9460b;
+	font-size: 12px;
+}
+
+.ui-login{
+	border:1px solid #e4edf0;
+}
+.ui-login .loginL{
+	float: left;
+	width: 600px;
+}
+.ui-login .loginL img{
+	float: left;
+}
+.ui-login .loginR{
+	width: 282px;
+	float: left;
+	padding-left: 58px;
+	padding-right: 58px;
+}
+.ui-login .loginR .tit{
+	height: 65px;
+	line-height: 65px;
+}
+.ui-login .loginR .tit h3{
+	font-size: 18px;
+	color: #4c4949;
+}
+.ui-login .loginR .tit .rlink{
+	float: right;
+	color: #e9460b;
+	font-size: 12px;
+}
+.ui-login .loginR .tit .rlink span{
+	color: #00afeb;
+}
+
+.ui-form .formItem {
+    margin-bottom: 25px;
+    position: relative;
+}
+.ui-form .ui-ipt {
+    background: #ffffff;
+    border: 1px solid #d7d8d8;
+    padding: 7px 10px 7px 48px;
+    height: 20px;
+    width: 222px;
+}
+.ui-form .ui-ipt:focus {
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
+.ui-form .ui-ipt-sm {
+    margin-right: 10px;
+    padding: 10px;
+    width: 140px;
+}
+.ui-form .ui-button {
+    width: 100%;
+    padding: 0px;
+}
+.ui-form .flink{
+	float: right;
+	color: #e9460b;
+	font-size: 12px;
+}
+.ui-form .flink span{
+	color: #00afeb
+}
+.ui-form .icon-account{
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	background: url("../../images/login/icon-account.png") no-repeat;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+}
+.ui-form .icon-password{
+	display: inline-block;
+	width: 15px;
+	height: 18px;
+	background: url("../../images/login/icon-password.png") no-repeat;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+}
+.ui-form .icon-line{
+	display: inline-block;
+	width: 1px;
+	height: 28px;
+	background: url("../../images/login/icon-line.png") no-repeat;
+	position: absolute;
+	left: 34px;
+	top: 4px;
+}
+.ui-form .security{
+	margin-bottom: 15px;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #999999;
+}
+.ui-form .security .icon-baozhang{
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background: url("../../images/login/icon-ensure.png") no-repeat;
+	margin-right: 5px;
+	vertical-align: -3px;
+}
+.ui-form .login-msg{
+	color: #e9460b;
+	font-size: 12px;
+	float: left;
+}
+
+.ui-message{
+	height: 54px;
+	background: #e9f2f5;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	font-size: 12px;
+	color: #999999;
+}
