@@ -1,0 +1,160 @@
+/*
+* @description: 注册模块样式库  
+* @author: wyf  
+* @email: 707366656@qq.com
+* @time: 2015-09-5
+*/
+
+/* 错误提示 */
+.ipt-err{
+	position: absolute;
+	top: 37px;
+	left: 130px;
+	color: #e9460b;
+	font-size: 12px;
+}
+
+.ui-findPwd .tit{
+	height: 50px;
+	line-height: 50px;
+	background: #f6f6f6;
+	position: relative;
+	z-index: 10;
+	margin-bottom: -1px;
+}
+.ui-findPwd .tit h3{
+	width: 330px;
+	border-top: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	background: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	color: #4c4949;
+}
+.ui-findPwd .tit .flink{
+	float: right;
+	font-size: 12px;
+}
+.ui-findPwd .tit .flink a{
+	color: #e9460b;
+}
+
+.ui-findPwd .con{
+	border:1px solid #f0f0f0;
+	height: 415px;
+	position: relative;
+}
+
+.ui-findPwd .icon-findPwd{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../../images/findPwd/icon-findPwd.png") no-repeat;
+	margin-right: 5px;
+	vertical-align: -3px;
+}
+
+.ui-findPwd .con .step-img{
+	margin-left: 113px;
+	margin-top: 70px;
+}
+
+.ui-form{
+	padding-left: 260px;
+}
+.ui-form.mt63{
+	margin-top: 63px;
+}
+
+.ui-form .ui-ipt{
+	background: #ffffff;
+    border: 1px solid #d7d8d8;
+    padding: 7px 10px 7px 10px;
+    height: 20px;
+    width: 262px;
+}
+.ui-form .ui-ipt:focus {
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
+.ui-form .ui-iptCode{
+	width: 106px;
+	margin-right: 10px;
+}
+.ui-form .formItem{
+	padding: 0 5px 25px 130px;
+    position: relative;
+}
+.ui-form .label{
+	float: left;
+    font-size: 14px;
+    margin-left: -135px;
+    padding-top: 5px;
+    text-align: right;
+    width: 130px;
+}
+.ui-form .ui-button{
+	width: 160px;
+}
+
+.findPwd-msg{
+	text-align: center;
+	font-size: 18px;
+	color: #4c4949;
+	margin-top: 70px;
+}
+.findPwd-msg span{
+	color: #e9460b;
+}
+.ui-form .sendCode{
+	float: left;
+	margin-top: 5px;
+	color: #00afeb;
+}
+.ui-form .sendCode a{
+	color: #e9460b;
+}
+
+.findPwd-msg2{
+	margin-left: 309px;
+	margin-top: 56px;
+	margin-bottom: 30px;
+}
+.findPwd-msg2 .suo{
+	float: left;
+	margin-right: 15px;
+}
+.findPwd-msg2 .info{
+	float: left;
+}
+.findPwd-msg2 .info .p1{
+	font-size: 28px;
+	color: #00afeb;
+	margin-bottom: 10px;
+}
+.findPwd-msg2 .info .p2{
+	color: #4c4949;
+}
+.findPwd-msg2 .info .p2 span{
+	color: #e9460b;
+}
+.ui-findPwd .btn{
+	text-align: center;
+}
+.ui-findPwd .btn a{
+	margin-right: 10px;
+}
+.ui-findPwd .shouyi{
+	text-align: center;
+}
+.ui-findPwd .shouyi{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.ui-findPwd .shouyi span{
+	color: #e9460b;
+	font-size: 24px;
+	font-weight: bold;
+}
