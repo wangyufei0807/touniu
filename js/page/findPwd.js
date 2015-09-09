@@ -77,6 +77,8 @@ define(function(require, exports, module){
             }
         })
 	})
+    
+    /*
 
     var i = 10; 
     var intervalid; 
@@ -90,4 +92,5 @@ define(function(require, exports, module){
         $("#jumpTo").html(i);
         i--;
     }
+    */
 })
